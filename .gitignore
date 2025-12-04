@@ -1,1 +1,51 @@
+# General
+*.log
+*.tmp
+*.temp
+*.DS_Store
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+
+# Virtual environment folders
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Chroma DB
+chroma/
+chroma_db/
+chroma_db.sqlite3
+*.pickle
+vectorstore/
+
+# Cache
+.cache/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# Model downloads
+models/
+*.bin
+*.pt
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# dotenv files
 .env
+.env.local
+.env.*.local
